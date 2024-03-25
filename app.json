@@ -1,16 +1,18 @@
 {
   "expo": {
-    "name": "my-app",
+    "name": "Goals",
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#1e085a",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "package": "com.greatminds.goals",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -25,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a82418d9-cdb5-468c-a107-e2b4cd04c723"
+      }
     }
   }
 }
